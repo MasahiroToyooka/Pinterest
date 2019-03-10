@@ -18,7 +18,7 @@ class CustomLayout: UICollectionViewLayout {
     weak var delegate: CustomDelegate!
     
     var numberOfColumn = 2
-    var padding: CGFloat = 4
+    var padding: CGFloat = 6
     var attributesArray = [UICollectionViewLayoutAttributes]()
     
     var contentHeight: CGFloat = 0

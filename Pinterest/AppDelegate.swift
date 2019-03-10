@@ -18,7 +18,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         window = UIWindow()
         window?.makeKeyAndVisible()
-        window?.rootViewController = ViewController(collectionViewLayout: CustomLayout())
+        
+        window?.rootViewController = BaseSlidingController()
         return true
     }
 
