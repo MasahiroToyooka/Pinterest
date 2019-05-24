@@ -6,4 +6,5 @@ Pinterestのようにコンテンツの高さによってセルの高さを変�
 スライドメニューは以前作った物を再利用しています。
 https://github.com/MasahiroToyooka/SlideMenu
 
-![画面収録 2019-03-10 11 51 05 mov](https://user-images.githubusercontent.com/38667604/54080092-faaff100-432b-11e9-8151-dadb3930b5c5.gif)
+![gif (1)](https://user-images.githubusercontent.com/38667604/58321364-e96d7f80-7e58-11e9-9c20-d4b7a7ee010e.gif)
+
