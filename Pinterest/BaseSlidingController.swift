@@ -134,7 +134,7 @@ class BaseSlidingController: UIViewController {
         
         switch indexPath.row {
         case 0:
-            rigthViewController = UINavigationController(rootViewController: ViewController(collectionViewLayout: CustomLayout()))
+            rigthViewController = UINavigationController(rootViewController: HomeController(collectionViewLayout: CustomLayout()))
         case 1:
             let listViewController = UIViewController()
 
@@ -152,7 +152,7 @@ class BaseSlidingController: UIViewController {
         redView.bringSubviewToFront(darkCoverView)
     }
     
-    var rigthViewController: UIViewController = UINavigationController(rootViewController: ViewController(collectionViewLayout: CustomLayout()))
+    var rigthViewController: UIViewController = UINavigationController(rootViewController: HomeController(collectionViewLayout: CustomLayout()))
     let menuController = MenuController()
     
     fileprivate func performRightViewCleanUp() {

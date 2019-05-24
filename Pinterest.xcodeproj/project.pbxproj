@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C10CB4C922324478003B9BC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10CB4C822324478003B9BC3 /* AppDelegate.swift */; };
-		C10CB4CB22324478003B9BC3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10CB4CA22324478003B9BC3 /* ViewController.swift */; };
+		C10CB4CB22324478003B9BC3 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10CB4CA22324478003B9BC3 /* HomeController.swift */; };
 		C10CB4CE22324478003B9BC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C10CB4CC22324478003B9BC3 /* Main.storyboard */; };
 		C10CB4D022324486003B9BC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C10CB4CF22324486003B9BC3 /* Assets.xcassets */; };
 		C10CB4D322324486003B9BC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C10CB4D122324486003B9BC3 /* LaunchScreen.storyboard */; };
@@ -17,12 +17,15 @@
 		C10CB4DF2233A205003B9BC3 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10CB4DE2233A205003B9BC3 /* MenuController.swift */; };
 		C10CB4E12233A252003B9BC3 /* MenuHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10CB4E02233A252003B9BC3 /* MenuHeader.swift */; };
 		C10CB4E32233A268003B9BC3 /* MenuItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10CB4E22233A268003B9BC3 /* MenuItemCell.swift */; };
+		C1453137228FE1630089D1B1 /* FullScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1453136228FE1630089D1B1 /* FullScreenViewController.swift */; };
+		C1453139228FE4AE0089D1B1 /* Layout_Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1453138228FE4AD0089D1B1 /* Layout_Extensions.swift */; };
+		C1CCCCFC2293900500DD87FF /* HomeViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1CCCCFB2293900500DD87FF /* HomeViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C10CB4C522324478003B9BC3 /* Pinterest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pinterest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C10CB4C822324478003B9BC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C10CB4CA22324478003B9BC3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C10CB4CA22324478003B9BC3 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		C10CB4CD22324478003B9BC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C10CB4CF22324486003B9BC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C10CB4D222324486003B9BC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -32,6 +35,9 @@
 		C10CB4DE2233A205003B9BC3 /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
 		C10CB4E02233A252003B9BC3 /* MenuHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuHeader.swift; sourceTree = "<group>"; };
 		C10CB4E22233A268003B9BC3 /* MenuItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemCell.swift; sourceTree = "<group>"; };
+		C1453136228FE1630089D1B1 /* FullScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenViewController.swift; sourceTree = "<group>"; };
+		C1453138228FE4AD0089D1B1 /* Layout_Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Layout_Extensions.swift; sourceTree = "<group>"; };
+		C1CCCCFB2293900500DD87FF /* HomeViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				C10CB4C822324478003B9BC3 /* AppDelegate.swift */,
-				C10CB4CA22324478003B9BC3 /* ViewController.swift */,
+				C10CB4CA22324478003B9BC3 /* HomeController.swift */,
 				C10CB4CC22324478003B9BC3 /* Main.storyboard */,
 				C10CB4CF22324486003B9BC3 /* Assets.xcassets */,
 				C10CB4D122324486003B9BC3 /* LaunchScreen.storyboard */,
@@ -75,6 +81,9 @@
 				C10CB4DE2233A205003B9BC3 /* MenuController.swift */,
 				C10CB4E02233A252003B9BC3 /* MenuHeader.swift */,
 				C10CB4E22233A268003B9BC3 /* MenuItemCell.swift */,
+				C1453136228FE1630089D1B1 /* FullScreenViewController.swift */,
+				C1453138228FE4AD0089D1B1 /* Layout_Extensions.swift */,
+				C1CCCCFB2293900500DD87FF /* HomeViewCell.swift */,
 			);
 			path = Pinterest;
 			sourceTree = "<group>";
@@ -152,11 +161,14 @@
 			files = (
 				C10CB4DF2233A205003B9BC3 /* MenuController.swift in Sources */,
 				C10CB4DB2232450D003B9BC3 /* CustomLayout.swift in Sources */,
-				C10CB4CB22324478003B9BC3 /* ViewController.swift in Sources */,
+				C10CB4CB22324478003B9BC3 /* HomeController.swift in Sources */,
+				C1453137228FE1630089D1B1 /* FullScreenViewController.swift in Sources */,
 				C10CB4E12233A252003B9BC3 /* MenuHeader.swift in Sources */,
 				C10CB4E32233A268003B9BC3 /* MenuItemCell.swift in Sources */,
 				C10CB4C922324478003B9BC3 /* AppDelegate.swift in Sources */,
+				C1CCCCFC2293900500DD87FF /* HomeViewCell.swift in Sources */,
 				C10CB4DD2233A0DB003B9BC3 /* BaseSlidingController.swift in Sources */,
+				C1453139228FE4AE0089D1B1 /* Layout_Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
